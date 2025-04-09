@@ -1,0 +1,12 @@
+
+### .gitignore
+
+Include a `.gitignore` file to keep Vagrant-specific artifacts out of Git:
+
+```gitignore
+# Vagrant local state
+.vagrant/
+
+# IDE files
+*.swp
+*.swo
